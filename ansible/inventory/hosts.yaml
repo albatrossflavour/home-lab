@@ -1,0 +1,8 @@
+---
+kubernetes:
+  children:
+    master:
+      hosts:
+        k3s-0:
+          ansible_user: tgreen
+          ansible_host: 192.168.4.18
